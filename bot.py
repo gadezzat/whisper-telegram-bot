@@ -26,7 +26,7 @@ import threading
 # ===================================
 
 # معلومات البوت والمسؤول
-TELEGRAM_TOKEN = "8464546031:AAH5Asw0jSspFzITgchZ_BQYcPbFgb2xn_s" @BotFather
+TELEGRAM_TOKEN = "8464546031:AAH5Asw0jSspFzITgchZ_BQYcPbFgb2xn_s" 
 ADMIN_USER_ID = 969596959695  # معرف التليجرام الخاص بك (رقم فقط)
 
 # إعدادات نموذج Whisper
@@ -1378,6 +1378,7 @@ if __name__ == '__main__':
     except Exception as e:
         print(f"\n❌ خطأ في تشغيل البوت: {e}")
         logger.error(f"❌ خطأ في تشغيل البوت: {e}")
+
 
 
 
