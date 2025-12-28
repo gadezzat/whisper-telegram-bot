@@ -39,7 +39,7 @@ BANK_INFO = {
     'account_number': '112012126002',
     'iban': 'EGEG120005101200000112012126002',
     'phone': '0193351307',  # فودافون كاش / إنستاباي
-    'currency': 'EGP',
+    'currency': 'USD',
     'dollar_rate': 50,  # سعر الدولار مقابل الجنيه
 }
 
@@ -1378,6 +1378,7 @@ if __name__ == '__main__':
     except Exception as e:
         print(f"\n❌ خطأ في تشغيل البوت: {e}")
         logger.error(f"❌ خطأ في تشغيل البوت: {e}")
+
 
 
 
