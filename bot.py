@@ -26,19 +26,19 @@ import threading
 # ===================================
 
 # معلومات البوت والمسؤول
-TELEGRAM_TOKEN = "ضع_توكن_البوت_هنا"  # توكن البوت من @BotFather
+TELEGRAM_TOKEN = " 8464546031:AAH5Asw0jSspFzITgchZ_BQYcPbFgb2xn_s" @BotFather
 ADMIN_USER_ID = 123456789  # معرف التليجرام الخاص بك (رقم فقط)
 
 # إعدادات نموذج Whisper
-WHISPER_MODEL = "base"  # الخيارات: tiny, base, small, medium, large
+WHISPER_MODEL = "large"  # الخيارات: tiny, base, small, medium, large
 
 # معلومات الحساب البنكي للدفع
 BANK_INFO = {
-    'bank_name': 'البنك الأهلي المصري',
-    'account_name': 'محمد أحمد علي',
-    'account_number': '1234567890123456',
-    'iban': 'EG380002000156789012345180002',
-    'phone': '01012345678',  # فودافون كاش / إنستاباي
+    'bank_name': 'Bank of Alexandria',
+    'account_name': 'EZZAT HOSNI MOHAMED',
+    'account_number': '112012126002',
+    'iban': 'EGEG120005101200000112012126002',
+    'phone': '0193351307',  # فودافون كاش / إنستاباي
     'currency': 'EGP',
     'dollar_rate': 50,  # سعر الدولار مقابل الجنيه
 }
@@ -1378,3 +1378,4 @@ if __name__ == '__main__':
     except Exception as e:
         print(f"\n❌ خطأ في تشغيل البوت: {e}")
         logger.error(f"❌ خطأ في تشغيل البوت: {e}")
+
