@@ -30,7 +30,7 @@ TELEGRAM_TOKEN = "8464546031:AAH5Asw0jSspFzITgchZ_BQYcPbFgb2xn_s"
 ADMIN_USER_ID = 969596959695  # معرف التليجرام الخاص بك (رقم فقط)
 
 # إعدادات نموذج Whisper
-WHISPER_MODEL = "base"  # الخيارات: tiny, base, small, medium, large
+WHISPER_MODEL = "tiny"  # الخيارات: tiny, base, small, medium, large
 
 # معلومات الحساب البنكي للدفع
 BANK_INFO = {
@@ -1378,6 +1378,7 @@ if __name__ == '__main__':
     except Exception as e:
         print(f"\n❌ خطأ في تشغيل البوت: {e}")
         logger.error(f"❌ خطأ في تشغيل البوت: {e}")
+
 
 
 
